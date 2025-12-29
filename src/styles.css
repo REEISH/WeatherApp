@@ -1,0 +1,86 @@
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("weatherbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 3vh 3vh 3vh 3vh;
+    user-select: none;
+
+}
+
+#top {
+    width: 50%;
+    height: 15%;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: flex;
+    border-radius: 3vh 3vh 3vh 3vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1bdd82;
+}
+
+#result {
+    width: 60%;
+    height: 35%;
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+    border-radius: 3vh 3vh 3vh 3vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8vh;
+    font-weight: 800;
+    background-color: transparent;
+}
+
+
+#form {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    font-weight: 500;
+    border-radius: 3vh 3vh 3vh 3vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    display: flex;
+    font-weight: 700;
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#city {
+    display: flex;
+    width: 50%;
+    height: 20%;
+    border-radius: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    display: flex;
+    width: 20%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+
+#button[type=submit]:hover {
+    background-color: #22e1e1;
+}
